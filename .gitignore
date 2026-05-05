@@ -17,7 +17,6 @@ Config.in
 # Normal output
 #
 /busybox
-/busybox.exe
 /busybox_old
 /busybox_old.exe
 /busybox_unstripped*
