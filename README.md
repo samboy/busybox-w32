@@ -1,3 +1,21 @@
+# What this is
+
+This is Busybox, a series of tiny clones of standard UNIX tools, to 
+Windows.
+
+# Download binaries
+
+Binaries are (here)[https://frippery.org/busybox/].
+
+# Compile
+
+* Clone this repo
+* Install mingw
+* `export CC="i686-w64-mingw32-gcc"` or what not to make the compiler one that makes a native Windows app
+* `make mingw32w_defconfig` to prepare the makefile
+* `make menuconfig` (optional) to fine-tune how Busybox is built
+* `make` to build Busybox 
+
 ### Status
 
 Things may work for you, or may not.  Things may never work because of huge differences between Linux and Windows.  Or things may work in future, if you report the problem on [GitHub](https://github.com/rmyorston/busybox-w32) or [GitLab](https://gitlab.com/rmyorston/busybox-w32).  If you don't have an account on one of those or you'd prefer to communicate privately you can email [rmy@pobox.com](mailto:rmy@pobox.com).
