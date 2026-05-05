@@ -12,7 +12,6 @@ Binaries are (here)[https://frippery.org/busybox/].
 * Clone this repo
 * Install mingw
 * `export CC="i686-w64-mingw32-gcc"` or what not to make the compiler one that makes a native Windows app
-* `make mingw32w_defconfig` to prepare the makefile
 * `make menuconfig` (optional) to fine-tune how Busybox is built
 * `make` to build Busybox 
 
