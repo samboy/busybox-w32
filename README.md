@@ -5,7 +5,15 @@ Windows.
 
 # Download binaries
 
-Binaries are (here)[https://frippery.org/busybox/].
+Binaries are [here](https://frippery.org/busybox/); a 32-bit binary
+with Unicode support (except for Vi, which is horrible broken with
+Unicode) is 
+[here](https://github.com/samboy/busybox-w32/blob/master/busybox.exe).
+
+# Updated source
+
+This source is current as of 2026-05-05.  Updated source is
+[here](https://github.com/rmyorston/busybox-w32).
 
 # Compile
 
